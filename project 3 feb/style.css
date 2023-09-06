@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-image: url(pexels-maxyne-barcel-10402282\ 1.png);
+  background-size: cover;
+  background-attachment: fixed; 
+ 
+}
+/* navigation bar */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 60px;
+    margin-top: 55px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    color: yellow;
+    font-weight: 600;
+    font-size: large;
+
+}
+header button{
+    padding: 10px 2%;
+    color: white;
+    background-color: #ff505f;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Here Section */
+
+main{
+    padding: 5% 20% 5% 20%;
+}
+main h1{
+    color: yellow;
+    font-size: 60px;
+    width: 60%;
+    margin-left: 30%;
+}
+main button{
+    margin-left: 40%;
+    margin-top: 8%;
+    padding: 11px 5%;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color:  #ff505f;
+    color: white;
+
+}
+
+/* footer */
+
+footer{
+    margin-left: 85%;
+}

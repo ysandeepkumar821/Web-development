@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f5ed;
+}
+/* navigation bar */
+
+header{
+    padding: 20px 10%;
+    height: 25vh;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin: 5%;
+    font-weight: 600;
+    margin-top: 5px;
+}
+header ul li img{
+    width: 100px;
+
+}
+
+/* Hero Section */
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* left section */
+
+.left-side{
+    width: 40%;
+}
+.left-side h1{
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left-side p{
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.left-side button{
+    padding: 10px 5%;
+    color: white;
+    border: none;
+    background-color: #3b855b;
+    font-size: 18px;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+
+/* Right section bar */
+
+.right-section div img{
+     width: 45%;
+    
+}
+
+img{
+    width: 91%;
+    margin-top: 5px;
+}
+.left-side button:hover{
+    background-color: white;
+    color: red;
+    text-decoration: underline;
+}

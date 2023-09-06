@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230, 230, 243);
+
+}
+/* Header Part */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 60px;
+    margin-top: 55px;
+}
+header img{
+    background-color: black;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 38%;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+header button{
+    padding: 10px 3%;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(43, 43, 130);
+    color: white;
+}
+
+/* Hero section */
+
+main{
+    padding: 0 60px 0 60px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+main h1{
+    font-size: 40px;
+    font-weight: 600;
+    width: 50%;
+}
+main h1 span{
+    color: rgb(43, 43, 130);
+}
+main p{
+    margin-top: 25px;
+}
+main button{
+    margin-top: 40px;
+    padding: 10px 3%;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: 600;
+    border-radius: 10px;
+    background-color: rgb(43, 43, 130);
+}
