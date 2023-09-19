@@ -1,0 +1,72 @@
+body{
+    height: 100%;
+    background-color: aquamarine;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.largest-laptop,
+.laptop,
+.tablet,
+.mobile {
+  font-size: 40px;
+  text-align: center;
+  display: none;
+}
+/* laptop */
+@media screen and (min-width: 0px){
+    
+body{
+    background-color: beige;
+    }
+.mobile{
+    display: block;
+}    
+}
+
+@media screen and (min-width: 425px){
+body{
+    background-color: azure;
+}
+.mobile{
+    display: none;    
+}
+.tablet{
+    display: block;
+}
+}
+@media screen and (min-width: 768px){
+body{
+    background-color: aqua;
+}
+.mobile{
+    display: none;    
+}
+.tablet{
+    display: none;
+} 
+.laptop{
+    display: block;
+}   
+}
+
+@media screen and (min-width: 1440px){
+body{
+    background-color: brown;
+}
+.mobile{
+    display: none;    
+}
+.tablet{
+    display: none;
+} 
+.laptop{
+    display: none;
+}
+.largest-laptop{
+    display: block;
+}       
+}
